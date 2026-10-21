@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Formosa By Clara — moda feminina e calçados. Roupas, sandálias, saltos e acessórios selecionados. Compre pelo WhatsApp." />
+  <meta name="theme-color" content="#F52D83" />
+  <title>Formosa By Clara</title>
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="apple-touch-icon" href="assets/Logo_FormosaByClara.png" />
+
+  <!-- ========================================== -->
+  <!-- TAGS DE SEO AVANÇADO (Adicionado agora)    -->
+  <!-- ========================================== -->
+  
+  <!-- Tag Canônica (Evita conteúdo duplicado) -->
+  <link rel="canonical" href="https://www.formosabyclara.com.br/" />
+
+  <!-- Open Graph (WhatsApp, Facebook, Instagram) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.formosabyclara.com.br/" />
+  <meta property="og:title" content="Formosa By Clara — Moda Feminina e Calçados" />
+  <meta property="og:description" content="Descubra roupas e calçados que combinam com você. Encontre seus novos favoritos e transforme cada look em uma expressão do seu estilo." />
+  <!-- Coloque aqui o link de uma imagem real de 1200x630px -->
+  <meta property="og:image" content="https://images.pexels.com/photos/8762424/pexels-photo-8762424.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Formosa By Clara — Moda Feminina e Calçados" />
+  <meta name="twitter:description" content="Descubra roupas e calçados que combinam com você." />
+  <meta name="twitter:image" content="https://images.pexels.com/photos/8762424/pexels-photo-8762424.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200" />
+
+  <!-- Schema Markup (Ajuda o Google e as IAs a entenderem a loja) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "name": "Formosa By Clara",
+    "image": "https://images.pexels.com/photos/8762424/pexels-photo-8762424.jpeg",
+    "description": "Moda feminina e calçados com atendimento personalizado pelo WhatsApp.",
+    "url": "https://www.formosabyclara.com.br/",
+    "telephone": "+5585986427804",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fortaleza",
+      "addressRegion": "CE",
+      "addressCountry": "BR"
+    }
+  }
+  </script>
+  <!-- ========================================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+<!-- Tags Canônicas -->
+<link rel="canonical" href="https://www.formosabyclara.com.br/" />
+
+<!-- Open Graph (Para compartilhamento em redes sociais) -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Formosa By Clara — Moda Feminina e Calçados" />
+<meta property="og:description" content="Descubra roupas e calçados que combinam com você. Compre pelo WhatsApp." />
+<meta property="og:image" content="assets/Banner Animado/Model_byClara.png" />
+<meta property="og:url" content="https://www.formosabyclara.com.br/" />
+<meta name="twitter:card" content="summary_large_image" />
+
+</head>
+
+<!-- COOKIE BANNER -->
+<div id="cookieBanner" class="cookie-banner" style="display: none;">
+  <p>Nós usamos cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa <a
+      href="/politica-de-privacidade">Política de Privacidade</a>.</p>
+  <button type="button" onclick="aceitarCookies()">Aceitar</button>
+</div>
+
+<body>
+  <!-- Skip link -->
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <button class="header__menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false"
+        aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <a href="#inicio" class="logo" aria-label="Formosa By Clara — início">
+        <img src="assets/Logo_FormosaByClara.png" alt="Logo Formosa By Clara" class="logo__mark" />
+        <span class="logo__text">
+          <strong>Formosa By Clara</strong>
+          <small>Seu estilo, sua essência.</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="desktopNav" aria-label="Principal">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Novidades</a>
+        <a href="#produtos" data-filter="roupas">Roupas</a>
+        <a href="#produtos" data-filter="calcados">Calçados</a>
+        <a href="#colecoes">Coleções</a>
+        <a href="#promocoes">Promoções</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn" id="searchToggle" aria-label="Buscar produtos" aria-expanded="false"
+          aria-controls="searchBar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <circle cx="11" cy="11" r="7" />
+            <path d="M20 20l-3-3" />
+          </svg>
+        </button>
+        <button class="icon-btn cart-btn" id="cartBtn" aria-label="Abrir sacola">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <path d="M6 6h15l-1.5 9h-12z" />
+            <path d="M6 6L5 3H2" />
+            <circle cx="9" cy="20" r="1" />
+            <circle cx="18" cy="20" r="1" />
+          </svg>
+          <span class="cart-count" id="cartCount" hidden>0</span>
+        </button>
+        <button class="btn btn--pink btn--sm header__wa" id="headerWaBtn" type="button">
+          <span>WhatsApp</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Search bar -->
+    <div class="search-bar" id="searchBar" hidden>
+      <div class="container search-bar__inner">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          aria-hidden="true">
+          <circle cx="11" cy="11" r="7" />
+          <path d="M20 20l-3-3" />
+        </svg>
+        <input type="search" id="searchInput" placeholder="Buscar roupas, sandálias, vestidos..." autocomplete="off"
+          aria-label="Buscar produtos" />
+        <button type="button" id="searchClear" class="search-clear" aria-label="Limpar busca">×</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile nav -->
+  <div class="mobile-nav" id="mobileNav" hidden>
+    <div class="mobile-nav__backdrop" data-close-menu></div>
+    <nav class="mobile-nav__panel" aria-label="Menu mobile">
+      <div class="mobile-nav__head">
+        <span class="logo__mark">F</span>
+        <strong>Formosa By Clara</strong>
+        <button type="button" class="icon-btn" data-close-menu aria-label="Fechar menu">×</button>
+      </div>
+      <a href="#inicio" data-close-menu>Início</a>
+      <a href="#produtos" data-close-menu>Novidades</a>
+      <a href="#categorias" data-close-menu>Categorias</a>
+      <a href="#produtos" data-close-menu data-filter="roupas">Roupas</a>
+      <a href="#produtos" data-close-menu data-filter="calcados">Calçados</a>
+      <a href="#colecoes" data-close-menu>Coleções</a>
+      <a href="#promocoes" data-close-menu>Promoções</a>
+      <a href="#sobre" data-close-menu>Sobre</a>
+      <a href="#faq" data-close-menu>Dúvidas</a>
+      <button type="button" class="btn btn--pink btn--block" id="mobileWaBtn">Comprar pelo WhatsApp</button>
+    </nav>
+  </div>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Nova coleção • Primavera / Verão</p>
+          <h1>Seu estilo merece ser <span class="text-pink">extraordinário.</span></h1>
+          <p class="hero__lead">Descubra roupas e calçados que combinam com você. Encontre seus novos favoritos e
+            transforme cada look em uma expressão do seu estilo.</p>
+          <div class="hero__cta">
+            <a href="#produtos" class="btn btn--pink">Explorar coleção</a>
+            <button type="button" class="btn btn--outline" data-wa-general>Comprar pelo WhatsApp</button>
+          </div>
+          <ul class="hero__trust">
+            <li>
+              <span class="trust-icon">✦</span>
+              <div><strong>Peças selecionadas</strong><small>Curadoria de moda</small></div>
+            </li>
+            <li>
+              <span class="trust-icon">♡</span>
+              <div><strong>Atendimento próximo</strong><small>Via WhatsApp</small></div>
+            </li>
+            <li>
+              <span class="trust-icon">◎</span>
+              <div><strong>Looks versáteis</strong><small>Do casual ao especial</small></div>
+            </li>
+          </ul>
+        </div>
+        <div class="hero__visual reveal">
+          <div class="hero__blob hero__blob--lime" aria-hidden="true"></div>
+          <div class="hero__blob hero__blob--pink" aria-hidden="true"></div>
+          <div class="hero__frame">
+            <!-- Substitua a imagem antiga por este vídeo -->
+            <video class="hero__video" src="assets/Banner Animado/Model_byClara.mp4"
+              poster="assets/Banner Animado/Model_byClara.png" autoplay loop muted playsinline
+              aria-label="Modelo desfilando a nova coleção"></video>
+
+            <div class="hero__badge">
+              <span>Novidades</span>
+              <strong>chegando</strong>
+            </div>
+          </div>
+          <span class="hero__wordmark" aria-hidden="true">STYLE</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS STRIP -->
+    <section class="benefits" aria-label="Diferenciais">
+      <div class="container benefits__grid">
+        <article class="benefit">
+          <div class="benefit__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg>
+          </div>
+          <h3>Atendimento personalizado</h3>
+          <p>Tire dúvidas e monte seu pedido com orientação próxima.</p>
+        </article>
+        <article class="benefit">
+          <div class="benefit__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 2l2.4 7.2H22l-6 4.8 2.3 7L12 16.8 5.7 21 8 14 2 9.2h7.6z" />
+            </svg>
+          </div>
+          <h3>Novidades selecionadas</h3>
+          <p>Peças escolhidas para combinar com o seu momento.</p>
+        </article>
+        <article class="benefit">
+          <div class="benefit__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+            </svg>
+          </div>
+          <h3>Compra prática pelo WhatsApp</h3>
+          <p>Monte a sacola e envie o pedido em poucos toques.</p>
+        </article>
+        <article class="benefit">
+          <div class="benefit__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M8 12l2.5 2.5L16 9" />
+            </svg>
+          </div>
+          <h3>Ajuda para escolher seu look</h3>
+          <p>Combine roupas e calçados com suporte da equipe.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="section categories" id="categorias">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Categorias</p>
+          <h2>Encontre seu próximo look</h2>
+          <p class="section__sub">Peças selecionadas para acompanhar você em todos os momentos.</p>
+        </header>
+        <div class="cat-grid" id="categoryGrid"></div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="section products" id="produtos">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Vitrine</p>
+          <h2>Favoritos da estação</h2>
+          <p class="section__sub">Peças que combinam com seu estilo e deixam qualquer produção ainda mais especial.</p>
+        </header>
+
+        <div class="toolbar reveal">
+          <div class="filters" role="group" aria-label="Filtros de categoria">
+            <button type="button" class="chip is-active" data-filter="all">Todas</button>
+            <button type="button" class="chip" data-filter="roupas">Roupas</button>
+            <button type="button" class="chip" data-filter="calcados">Calçados</button>
+            <button type="button" class="chip" data-filter="vestidos">Vestidos</button>
+            <button type="button" class="chip" data-filter="conjuntos">Conjuntos</button>
+            <button type="button" class="chip" data-filter="blusas">Blusas</button>
+            <button type="button" class="chip" data-filter="calcas">Calças</button>
+            <button type="button" class="chip" data-filter="sandalias">Sandálias</button>
+            <button type="button" class="chip" data-filter="rasteiras">Rasteiras</button>
+            <button type="button" class="chip" data-filter="saltos">Saltos</button>
+            <button type="button" class="chip" data-filter="acessorios">Acessórios</button>
+            <button type="button" class="chip" data-filter="promocao">Promoções</button>
+          </div>
+          <div class="toolbar__right">
+            <label class="sr-only" for="sortSelect">Ordenar</label>
+            <select id="sortSelect" class="select">
+              <option value="default">Ordem padrão</option>
+              <option value="recent">Mais recentes</option>
+              <option value="price-asc">Menor preço</option>
+              <option value="price-desc">Maior preço</option>
+            </select>
+          </div>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+        <p class="sr-only" id="resultsStatus" aria-live="polite"></p>
+        <div class="empty-state" id="emptyState" hidden>
+          <p>Nenhum produto encontrado com esses filtros.</p>
+          <button type="button" class="btn btn--outline" id="clearFiltersBtn">Limpar filtros</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW COLLECTION -->
+    <section class="section collection" id="colecoes">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Editorial</p>
+          <h2>Novidades que combinam com você</h2>
+          <p class="section__sub">Looks pensados para o dia a dia e para momentos especiais.</p>
+        </header>
+        <div class="collection__grid">
+          <article class="look look--large reveal">
+            <img src="assets/Imgs/vestido.png" alt="Look editorial com vestido rosa elegante" loading="lazy" width="900"
+              height="1200" />
+            <div class="look__overlay">
+              <p class="eyebrow">Vestidos</p>
+              <h3>Elegância em cada detalhe</h3>
+              <button type="button" class="btn btn--light" data-filter-jump="vestidos">Explorar vestidos</button>
+            </div>
+          </article>
+          <article class="look reveal">
+            <img src="assets/Imgs/conjunto com estampa de borboleta.png" alt="Conjunto com estampa de borboleta"
+              loading="lazy" width="700" height="900" />
+            <div class="look__overlay">
+              <p class="eyebrow">Conjuntos</p>
+              <h3>Combinações prontas</h3>
+              <button type="button" class="btn btn--light btn--sm" data-filter-jump="conjuntos">Ver conjuntos</button>
+            </div>
+          </article>
+          <article class="look reveal">
+            <img src="assets/Imgs/calçados.png" alt="Sandália preta de salto em estúdio" loading="lazy" width="700"
+              height="900" />
+            <div class="look__overlay">
+              <p class="eyebrow">Calçados</p>
+              <h3>Passos com estilo</h3>
+              <button type="button" class="btn btn--light btn--sm" data-filter-jump="calcados">Ver calçados</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMO BANNER -->
+    <section class="promo" id="promocoes">
+      <div class="container promo__inner reveal">
+        <div class="promo__text">
+          <p class="eyebrow eyebrow--dark">Novidades da temporada</p>
+          <h2>Seu próximo look está esperando por você!</h2>
+          <p>Descubra peças selecionadas para renovar seu guarda-roupa. Fale conosco e monte seu pedido com atendimento
+            personalizado.</p>
+          <a href="#produtos" class="btn btn--pink">Quero conhecer as novidades</a>
+        </div>
+        <div class="promo__badge" aria-hidden="true">
+          <span>NOVA</span>
+          <strong>COLEÇÃO</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="sobre">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <img src="assets/Imgs/sobre a marca.png" alt="Retrato de moda feminina representando a essência da marca"
+            loading="lazy" width="900" height="1100" />
+        </div>
+        <div class="about__content reveal">
+          <p class="eyebrow">Sobre a marca</p>
+          <h2>Moda que combina com a sua essência.</h2>
+          <p>Acreditamos que cada look é uma forma de expressar personalidade. Nossa proposta é ajudar você a encontrar
+            roupas e calçados que combinem com seu estilo, seus momentos e sua maneira de se sentir bem.</p>
+          <p>Personalize este espaço com a história da sua marca, diferenciais reais e informações de atendimento. O
+            conteúdo abaixo é um modelo editável.</p>
+          <ul class="about__list">
+            <li>Curadoria de moda feminina e calçados</li>
+            <li>Atendimento consultivo pelo WhatsApp</li>
+            <li>Peças para o dia a dia e ocasiões especiais</li>
+          </ul>
+          <div class="about__actions">
+            <button type="button" class="btn btn--pink" data-wa-general>Falar com a loja</button>
+            <a href="#instagram" class="btn btn--outline">Ver inspirações</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM -->
+    <section class="section instagram" id="instagram">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Inspiração</p>
+          <h2>Continue acompanhando nossas novidades</h2>
+          <p class="section__sub">Uma vitrine visual de looks, calçados e combinações .</p>
+        </header>
+        <div class="ig-grid reveal" id="igGrid"></div>
+        <div class="section__cta">
+          <a class="btn btn--outline" id="igBtn" href="#" target="_blank" rel="noopener noreferrer">Acompanhe no
+            Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="container faq__wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">Ajuda</p>
+          <h2>Dúvidas frequentes</h2>
+        </header>
+        <div class="faq__list reveal" id="faqList">
+          <details class="faq__item">
+            <summary>Como faço para comprar?</summary>
+            <p>Escolha os produtos, selecione tamanho e cor quando necessário, adicione à sacola e clique em “Finalizar
+              pedido pelo WhatsApp”. Você revisa a mensagem e envia para a loja.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Como escolho o tamanho?</summary>
+            <p>Cada produto mostra as opções disponíveis. Se tiver dúvida entre tamanhos, fale conosco pelo WhatsApp
+              antes de confirmar o pedido.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Como confirmo a disponibilidade de uma peça?</summary>
+            <p>A disponibilidade é confirmada diretamente no atendimento. Envie o produto pelo WhatsApp e nossa equipe
+              retorna com as opções.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Quais são as formas de pagamento?</summary>
+            <p>As formas de pagamento são combinadas no atendimento pelo WhatsApp, de acordo com a política atual da
+              loja.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Como funciona a entrega?</summary>
+            <p>Após confirmar o pedido, combinamos frete, prazo e endereço pelo WhatsApp. Não exibimos prazos fixos
+              neste site de demonstração.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Posso tirar dúvidas antes de comprar?</summary>
+            <p>Sim. Use o botão de WhatsApp a qualquer momento para perguntar sobre modelagem, cores, combinações ou
+              disponibilidade.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Como faço para acompanhar novidades?</summary>
+            <p>Acompanhe o Instagram da loja (quando configurado) e volte à vitrine para ver as peças em destaque.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#inicio" class="logo logo--light">
+          <img src="assets/Logo_FormosaByClara.png" alt="Logo Formosa By Clara" class="logo__mark" />
+          <span class="logo__text">
+            <strong>Formosa By Clara</strong>
+            <small>Seu estilo, sua essência.</small>
+          </span>
+        </a>
+        <p>Moda feminina e calçados com atendimento personalizado pelo WhatsApp.</p>
+        <button type="button" class="btn btn--pink btn--sm" data-wa-general>Falar no WhatsApp</button>
+      </div>
+      <div>
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#categorias">Categorias</a></li>
+          <li><a href="#produtos">Vitrine</a></li>
+          <li><a href="#colecoes">Coleções</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#faq">Dúvidas</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Categorias</h3>
+        <ul>
+          <li><a href="#produtos" data-filter="vestidos">Vestidos</a></li>
+          <li><a href="#produtos" data-filter="conjuntos">Conjuntos</a></li>
+          <li><a href="#produtos" data-filter="sandalias">Sandálias</a></li>
+          <li><a href="#produtos" data-filter="saltos">Saltos</a></li>
+          <li><a href="#produtos" data-filter="rasteiras">Rasteiras</a></li>
+          <li><a href="#produtos" data-filter="acessorios">Acessórios</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contato</h3>
+        <ul>
+          <li><button type="button" class="linkish" data-wa-general>WhatsApp da loja</button></li>
+          <li><a href="#instagram" id="footerIg">Instagram</a></li>
+        </ul>
+      </div>
+      <!-- DENTRO DA DIV FOOTER__GRID, ADICIONE MAIS UMA COLUNA -->
+      <div>
+        <h3>Institucional</h3>
+        <ul>
+          <li><a href="#" data-legal="privacidade">Política de Privacidade</a></li>
+          <li><a href="#" data-legal="termos">Termos de Serviço</a></li>
+          <li><a href="#" data-legal="trocas">Trocas e Devoluções</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer__bottom">
+  <div class="container footer__bottom-content">
+    
+    <!-- Dados da Empresa (LGPD e CDC) -->
+    <div class="footer__legal-data">
+      <p><strong>Formosa By Clara</strong> | CNPJ: 00.000.000/0001-00</p>
+      <p>Rua Exemplo, 123 - São Paulo/SP | E-mail: contato@formosabyclara.com.br</p>
+      <p><em>Encarregado de Dados (DPO): Clara - dpo@formosabyclara.com.br</em></p>
+      <p class="footer__lgpd-badges">
+        <span>✔ Consentimento</span> 
+        <span>✔ Finalidade clara</span> 
+        <span>✔ Direito de exclusão</span>
+      </p>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer__copyright">
+      <p>© <span id="year"></span> Formosa By Clara. Todos os direitos reservados.</p>
+    </div>
+
+  </div>
+</div>
+  </footer>
+
+  <button type="button" class="wa-float" id="waFloat" aria-label="Abrir WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
+  </button>
+  <!-- CART DRAWER -->
+  <div class="drawer" id="cartDrawer" hidden>
+    <div class="drawer__backdrop" data-close-cart></div>
+    <aside class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle" tabindex="-1">
+      <header class="drawer__head">
+        <h2 id="cartTitle">Sua sacola</h2>
+        <button type="button" class="icon-btn" data-close-cart aria-label="Fechar sacola">×</button>
+      </header>
+      <div class="drawer__body" id="cartBody"></div>
+      <footer class="drawer__foot" id="cartFoot" hidden>
+        <div class="cart-total">
+          <span>Total estimado</span>
+          <strong id="cartTotal">R$ 0,00</strong>
+        </div>
+        <p class="cart-note">Valores sujeitos a confirmação. Frete e pagamento são combinados no WhatsApp.</p>
+        <button type="button" class="btn btn--pink btn--block" id="checkoutBtn">Finalizar pedido pelo WhatsApp</button>
+        <button type="button" class="btn btn--ghost btn--block" data-close-cart>Continuar comprando</button>
+        <button type="button" class="btn btn--text btn--block" id="clearCartBtn">Esvaziar sacola</button>
+      </footer>
+    </aside>
+  </div>
+
+  <!-- PRODUCT MODAL -->
+  <div class="modal" id="productModal" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+      <button type="button" class="modal__close" data-close-modal aria-label="Fechar">×</button>
+      <div class="modal__grid" id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <!-- MODAL DE TEXTOS LEGAIS -->
+  <div class="modal" id="legalModal" hidden>
+    <div class="modal__backdrop" data-close-legal></div>
+    <div class="modal__dialog modal__dialog--text" role="dialog" aria-modal="true" aria-labelledby="legalTitle"
+      tabindex="-1">
+      <button type="button" class="modal__close" data-close-legal aria-label="Fechar">×</button>
+      <div class="modal__text-content">
+        <h2 id="legalTitle"></h2>
+        <div id="legalBody"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
